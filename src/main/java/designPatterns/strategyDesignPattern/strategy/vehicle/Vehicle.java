@@ -8,6 +8,6 @@ public class Vehicle {
         this.driveobj = driveobj;
     }
     public void drive(){
-        driveobj.drive();
+        this.driveobj.drive();
     }
 }
