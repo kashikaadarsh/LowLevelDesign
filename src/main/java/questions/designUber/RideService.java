@@ -37,6 +37,7 @@ public class RideService {
     }
 
     public void cancelRide(Ride ride){
+        System.out.println("Cancelling ride - "+ ride.getRideId());
         ride.cancellRide();
     }
 

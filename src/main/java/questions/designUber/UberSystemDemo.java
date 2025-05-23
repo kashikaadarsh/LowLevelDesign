@@ -18,10 +18,7 @@ public class UberSystemDemo {
         List<Driver> availableDriver = rideService.getAvailableDrivers();
         System.out.println(availableDriver.get(0).getDriverName());
         rideService.assignDriverToRide(ride1,availableDriver.get(0));
-
-
-
-
+        rideService.cancelRide(ride1);
 
     }
 }
